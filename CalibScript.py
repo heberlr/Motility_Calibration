@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import shlex,subprocess
 from subprocess import DEVNULL, STDOUT, check_call
 from LF_MCMC import ABC_MCMC

@@ -43,7 +43,7 @@ def ReadSimulationG():
   
   for n in range( initial_index,last_index+1 ):
     filename='output'+"%08i"%n+'.xml'
-    mcds=pyMCDS(filename,'output_MAP_Gre')
+    mcds=pyMCDS(filename,'outputMAP_Green')
     cx = mcds.data['discrete_cells']['position_x'];
     cy = mcds.data['discrete_cells']['position_y'];
     positionx = np.append(positionx,np.array([cx]),axis=0)
