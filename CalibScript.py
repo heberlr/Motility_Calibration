@@ -59,5 +59,5 @@ LowLimit = np.array([0.0,0.0])
 qoiR = DsRedDisplacement
 qoiG = GFPDisplacement
 
-ABC_MCMC(ModelRed, qoiR,LowLimit, UpperLimit,'./output/CalibMotR.dat',15.0,1)
-ABC_MCMC(ModelGreen, qoiG,LowLimit, UpperLimit,'./output/CalibMotG.dat',20.0,1)
+ABC_MCMC(ModelRed, qoiR,LowLimit, UpperLimit,'./output/CalibMotR.dat',15.0,200)
+ABC_MCMC(ModelGreen, qoiG,LowLimit, UpperLimit,'./output/CalibMotG.dat',20.0,200)
